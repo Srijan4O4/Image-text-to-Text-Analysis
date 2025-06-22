@@ -1,0 +1,341 @@
+2025-06-22 23:16:33,948 INFO Analyzing product - Name: PUMA Original Shoes
+2025-06-22 23:16:33,951 INFO Description: This is the Puma Shoes 
+2025-06-22 23:16:34,339 INFO AFC is enabled with max remote calls: 10.
+2025-06-22 23:16:37,112 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-22 23:16:37,127 INFO AFC remote call 1 is done.
+2025-06-22 23:16:37,127 INFO Gemini Analysis: ```json
+{
+  "authentic_or_manipulated": {
+    "score": 0,
+    "explanation": "The image quality is low and blurry, making it difficult to assess authenticity or manipulation conclusively. However, the blurriness itself could be a tactic to obscure details that might reveal a fake."
+  },
+  "matches_product_name": {
+    "score": 1,
+    "explanation": "The image clearly shows the PUMA logo and branding, so it does match the product name 'PUMA Original Shoes'. The presence of the Puma logo is a direct indicator."
+  },
+  "signs_of_counterfeit": {
+    "score": 1,
+    "explanation": "Due to the low image quality, it's difficult to fully assess for signs of a counterfeit. However, the blurry logo and overall lack of detail raise suspicion. Counterfeit products often have poorly rendered logos and lower-quality materials."
+  },
+  "matches_description": {
+    "score": 1,
+    "explanation": "The image shows Puma shoes, therefore it matches the description 'This is the Puma Shoes'."
+  }
+}
+```
+2025-06-22 23:16:37,128 WARNING Product flagged as suspicious
+2025-06-22 23:16:45,625 INFO Analyzing product - Name: PUMA Original Shoes
+2025-06-22 23:16:45,626 INFO Description: This is the Puma Shoes 
+2025-06-22 23:16:45,873 INFO AFC is enabled with max remote calls: 10.
+2025-06-22 23:16:48,046 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-22 23:16:48,047 INFO AFC remote call 1 is done.
+2025-06-22 23:16:48,047 INFO Gemini Analysis: ```json
+{
+  "authenticity": {
+    "score": 1,
+    "explanation": "The image appears authentic, with no obvious signs of manipulation. The logo and font seem consistent with the Puma brand."
+  },
+  "product_name_match": {
+    "score": 1,
+    "explanation": "The image clearly shows the PUMA logo and branding, aligning with the product name 'PUMA Original Shoes'. The logo is distinct and easily recognizable."
+  },
+  "counterfeit_signs": {
+    "score": 0,
+    "explanation": "Based solely on this image, there are no immediately obvious signs of a counterfeit product. However, a single image provides limited information, and a more detailed examination would be necessary for a definitive assessment."
+  },
+  "description_match": {
+    "score": 1,
+    "explanation": "The image shows Puma shoes, which aligns with the description 'This is the Puma Shoes'."
+  }
+}
+```
+2025-06-22 23:16:48,048 WARNING Product flagged as suspicious
+2025-06-22 23:18:59,504 INFO Analyzing product - Name: HP 15, 13th Gen Intel Core i5-1334U Laptop (16GB DDR4,1TB SSD) Anti-Glare, Micro-Edge,15.6''/39.6cm, FHD, Win11, M365 Basic(1yr),Office Home24, Silver,1.59kg, Iris Xe, FHD Camera w/Shutter, FD0552TU
+2025-06-22 23:18:59,504 INFO Description: Processor, Memory & Storage: Intel Core i5-1334U (up to 4.6 GHz with Intel Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)| Memory: 16 GB DDR4-3200 MT/s (2 x 8 GB) | Storage: 1 TB PCIe Gen4 NVMe M.2 SSD
+Operating System & Preinstalled Software: Windows 11 Home Single Language | MS Office Home 2024 |1 year Microsoft 365 Basic Free|
+Display & Graphics: 39.6 cm (15.6") diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% NTSC| Graphics:Intel Iris XeGraphics
+Ports & Connectivity : 1 USB Type-C 5Gbps signaling rate (supports data transfer only and does not support charging or external monitors); 2 USB Type-A 5Gbps signaling rate; 1 AC smart pin; 1 HDMI 1.4b; 1 headphone/microphone combo| Connectivity: Realtek Wi-Fi 6 (1x1) and Bluetooth 5.3 wireless card
+Other Features: Camera: HP True Vision 1080p FHD camera with temporal noise reduction and Integrated dual array digital microphones| Keyboard:Full-size, backlit, soft grey keyboard with numeric keypad| Audio: Dual speakers|Battery type: 3-cell, 41 Wh Li-ion polymer; Supports battery fast charge: approximately 50% in 45 minutes
+2025-06-22 23:18:59,786 INFO AFC is enabled with max remote calls: 10.
+2025-06-22 23:19:04,005 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-22 23:19:04,008 INFO AFC remote call 1 is done.
+2025-06-22 23:19:04,008 INFO Gemini Analysis: ```json
+{
+  "authenticity": {
+    "score": 1,
+    "explanation": "The image appears to be an authentic product photo, likely taken for promotional purposes."
+  },
+  "product_match": {
+    "score": 1,
+    "explanation": "The image closely matches the product name and specs provided. The laptop features the 13th Gen Intel Core i5, and the screen displays information regarding Intel Iris Xe Graphics, MS Office 2024 and Microsoft 365. The design matches the description as well."
+  },
+  "counterfeit_signs": {
+    "score": 0,
+    "explanation": "There are no obvious signs of counterfeiting in the image."
+  },
+  "description_match": {
+    "score": 1,
+    "explanation": "The image aligns with the product description. The laptop has the expected design, display features, and branding (Intel, HP, Microsoft)."
+  }
+}
+```
+2025-06-22 23:19:04,008 WARNING Product flagged as suspicious
+2025-06-22 23:19:07,488 INFO Analyzing product - Name: HP 15, 13th Gen Intel Core i5-1334U Laptop (16GB DDR4,1TB SSD) Anti-Glare, Micro-Edge,15.6''/39.6cm, FHD, Win11, M365 Basic(1yr),Office Home24, Silver,1.59kg, Iris Xe, FHD Camera w/Shutter, FD0552TU
+2025-06-22 23:19:07,488 INFO Description: Processor, Memory & Storage: Intel Core i5-1334U (up to 4.6 GHz with Intel Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)| Memory: 16 GB DDR4-3200 MT/s (2 x 8 GB) | Storage: 1 TB PCIe Gen4 NVMe M.2 SSD
+Operating System & Preinstalled Software: Windows 11 Home Single Language | MS Office Home 2024 |1 year Microsoft 365 Basic Free|
+Display & Graphics: 39.6 cm (15.6") diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% NTSC| Graphics:Intel Iris XeGraphics
+Ports & Connectivity : 1 USB Type-C 5Gbps signaling rate (supports data transfer only and does not support charging or external monitors); 2 USB Type-A 5Gbps signaling rate; 1 AC smart pin; 1 HDMI 1.4b; 1 headphone/microphone combo| Connectivity: Realtek Wi-Fi 6 (1x1) and Bluetooth 5.3 wireless card
+Other Features: Camera: HP True Vision 1080p FHD camera with temporal noise reduction and Integrated dual array digital microphones| Keyboard:Full-size, backlit, soft grey keyboard with numeric keypad| Audio: Dual speakers|Battery type: 3-cell, 41 Wh Li-ion polymer; Supports battery fast charge: approximately 50% in 45 minutes
+2025-06-22 23:19:07,787 INFO AFC is enabled with max remote calls: 10.
+2025-06-22 23:19:11,250 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-22 23:19:11,252 INFO AFC remote call 1 is done.
+2025-06-22 23:19:11,252 INFO Gemini Analysis: ```json
+{
+  "authentic": 1.0,
+  "match_product_name": 1.0,
+  "counterfeit": 0.0,
+  "match_description": 1.0,
+  "explanation": "The image appears to be authentic and matches the product name and description. The laptop in the image has the '13th Gen Intel Core i5' and 'Intel Iris Xe Graphics' markings, indicating the processor and graphics card. The image also has the Office 2024 logo, which matches the software included. Other features mentioned in the description like 'Camera with privacy shutter', 'HP Fast Charge' are present on the screen indicating a match with product specifications. Overall, the image aligns with the provided information."
+}
+```
+2025-06-22 23:19:11,252 WARNING Product flagged as suspicious
+2025-06-22 23:22:56,979 INFO Analyzing product - Name: HP 15, 13th Gen Intel Core i5-1334U Laptop (16GB DDR4,1TB SSD) Anti-Glare, Micro-Edge,15.6''/39.6cm, FHD, Win11, M365 Basic(1yr),Office Home24, Silver,1.59kg, Iris Xe, FHD Camera w/Shutter, FD0552TU
+2025-06-22 23:22:56,979 INFO Description: Processor, Memory & Storage: Intel Core i5-1334U (up to 4.6 GHz with Intel Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)| Memory: 16 GB DDR4-3200 MT/s (2 x 8 GB) | Storage: 1 TB PCIe Gen4 NVMe M.2 SSD
+Operating System & Preinstalled Software: Windows 11 Home Single Language | MS Office Home 2024 |1 year Microsoft 365 Basic Free|
+Display & Graphics: 39.6 cm (15.6") diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% NTSC| Graphics:Intel Iris XeGraphics
+Ports & Connectivity : 1 USB Type-C 5Gbps signaling rate (supports data transfer only and does not support charging or external monitors); 2 USB Type-A 5Gbps signaling rate; 1 AC smart pin; 1 HDMI 1.4b; 1 headphone/microphone combo| Connectivity: Realtek Wi-Fi 6 (1x1) and Bluetooth 5.3 wireless card
+Other Features: Camera: HP True Vision 1080p FHD camera with temporal noise reduction and Integrated dual array digital microphones| Keyboard:Full-size, backlit, soft grey keyboard with numeric keypad| Audio: Dual speakers|Battery type: 3-cell, 41 Wh Li-ion polymer; Supports battery fast charge: approximately 50% in 45 minutes
+2025-06-22 23:22:56,998 ERROR Error analyzing product: module 'google.generativeai' has no attribute 'Client'
+2025-06-22 23:23:02,420 INFO Analyzing product - Name: HP 15, 13th Gen Intel Core i5-1334U Laptop (16GB DDR4,1TB SSD) Anti-Glare, Micro-Edge,15.6''/39.6cm, FHD, Win11, M365 Basic(1yr),Office Home24, Silver,1.59kg, Iris Xe, FHD Camera w/Shutter, FD0552TU
+2025-06-22 23:23:02,420 INFO Description: Processor, Memory & Storage: Intel Core i5-1334U (up to 4.6 GHz with Intel Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)| Memory: 16 GB DDR4-3200 MT/s (2 x 8 GB) | Storage: 1 TB PCIe Gen4 NVMe M.2 SSD
+Operating System & Preinstalled Software: Windows 11 Home Single Language | MS Office Home 2024 |1 year Microsoft 365 Basic Free|
+Display & Graphics: 39.6 cm (15.6") diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% NTSC| Graphics:Intel Iris XeGraphics
+Ports & Connectivity : 1 USB Type-C 5Gbps signaling rate (supports data transfer only and does not support charging or external monitors); 2 USB Type-A 5Gbps signaling rate; 1 AC smart pin; 1 HDMI 1.4b; 1 headphone/microphone combo| Connectivity: Realtek Wi-Fi 6 (1x1) and Bluetooth 5.3 wireless card
+Other Features: Camera: HP True Vision 1080p FHD camera with temporal noise reduction and Integrated dual array digital microphones| Keyboard:Full-size, backlit, soft grey keyboard with numeric keypad| Audio: Dual speakers|Battery type: 3-cell, 41 Wh Li-ion polymer; Supports battery fast charge: approximately 50% in 45 minutes
+2025-06-22 23:23:02,438 ERROR Error analyzing product: module 'google.generativeai' has no attribute 'Client'
+2025-06-22 23:25:15,486 INFO Analyzing product - Name: HP 15, 13th Gen Intel Core i5-1334U Laptop (16GB DDR4,1TB SSD) Anti-Glare, Micro-Edge,15.6''/39.6cm, FHD, Win11, M365 Basic(1yr),Office Home24, Silver,1.59kg, Iris Xe, FHD Camera w/Shutter, FD0552TU
+2025-06-22 23:25:15,486 INFO Description: Processor, Memory & Storage: Intel Core i5-1334U (up to 4.6 GHz with Intel Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)| Memory: 16 GB DDR4-3200 MT/s (2 x 8 GB) | Storage: 1 TB PCIe Gen4 NVMe M.2 SSD
+Operating System & Preinstalled Software: Windows 11 Home Single Language | MS Office Home 2024 |1 year Microsoft 365 Basic Free|
+Display & Graphics: 39.6 cm (15.6") diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% NTSC| Graphics:Intel Iris XeGraphics
+Ports & Connectivity : 1 USB Type-C 5Gbps signaling rate (supports data transfer only and does not support charging or external monitors); 2 USB Type-A 5Gbps signaling rate; 1 AC smart pin; 1 HDMI 1.4b; 1 headphone/microphone combo| Connectivity: Realtek Wi-Fi 6 (1x1) and Bluetooth 5.3 wireless card
+Other Features: Camera: HP True Vision 1080p FHD camera with temporal noise reduction and Integrated dual array digital microphones| Keyboard:Full-size, backlit, soft grey keyboard with numeric keypad| Audio: Dual speakers|Battery type: 3-cell, 41 Wh Li-ion polymer; Supports battery fast charge: approximately 50% in 45 minutes
+2025-06-22 23:25:15,799 INFO AFC is enabled with max remote calls: 10.
+2025-06-22 23:25:19,510 INFO Analyzing product - Name: HP 15, 13th Gen Intel Core i5-1334U Laptop (16GB DDR4,1TB SSD) Anti-Glare, Micro-Edge,15.6''/39.6cm, FHD, Win11, M365 Basic(1yr),Office Home24, Silver,1.59kg, Iris Xe, FHD Camera w/Shutter, FD0552TU
+2025-06-22 23:25:19,510 INFO Description: Processor, Memory & Storage: Intel Core i5-1334U (up to 4.6 GHz with Intel Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)| Memory: 16 GB DDR4-3200 MT/s (2 x 8 GB) | Storage: 1 TB PCIe Gen4 NVMe M.2 SSD
+Operating System & Preinstalled Software: Windows 11 Home Single Language | MS Office Home 2024 |1 year Microsoft 365 Basic Free|
+Display & Graphics: 39.6 cm (15.6") diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% NTSC| Graphics:Intel Iris XeGraphics
+Ports & Connectivity : 1 USB Type-C 5Gbps signaling rate (supports data transfer only and does not support charging or external monitors); 2 USB Type-A 5Gbps signaling rate; 1 AC smart pin; 1 HDMI 1.4b; 1 headphone/microphone combo| Connectivity: Realtek Wi-Fi 6 (1x1) and Bluetooth 5.3 wireless card
+Other Features: Camera: HP True Vision 1080p FHD camera with temporal noise reduction and Integrated dual array digital microphones| Keyboard:Full-size, backlit, soft grey keyboard with numeric keypad| Audio: Dual speakers|Battery type: 3-cell, 41 Wh Li-ion polymer; Supports battery fast charge: approximately 50% in 45 minutes
+2025-06-22 23:25:19,781 INFO AFC is enabled with max remote calls: 10.
+2025-06-22 23:25:19,939 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-22 23:25:19,942 INFO AFC remote call 1 is done.
+2025-06-22 23:25:19,942 INFO Gemini Analysis: ```json
+{
+  "authentic": {
+    "score": 1.0,
+    "explanation": "The image appears to be a professionally taken product shot, with no obvious signs of manipulation."
+  },
+  "match_product_name": {
+    "score": 1.0,
+    "explanation": "The image matches the product name. The laptop shows the 'HP' logo and appears to be running on an Intel Core i5 processor. The '13th Gen' badge is visible, along with mentions of Iris Xe Graphics, Latest MS Office 2024 and 1-year free Microsoft 365, all matching features in the description."
+  },
+  "counterfeit": {
+    "score": 0.0,
+    "explanation": "There are no visible signs that this is a counterfeit product. The branding and features appear consistent with a legitimate HP laptop."
+  },
+  "match_description": {
+    "score": 1.0,
+    "explanation": "The image aligns with the description provided. It shows an HP laptop with features mentioned in the description, such as the Intel Core i5 processor with Intel Iris Xe graphics, a front-facing camera, and a full keyboard with numeric keypad. The '13th Gen' Intel processor is a key element of the description, and is clearly visible in the image."
+  }
+}
+```
+2025-06-22 23:25:19,942 ERROR Error analyzing product: Expecting value: line 1 column 1 (char 0)
+2025-06-22 23:25:24,277 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-22 23:25:24,279 INFO AFC remote call 1 is done.
+2025-06-22 23:25:24,279 INFO Gemini Analysis: ```json
+{
+  "authenticity": {
+    "score": 1,
+    "explanation": "The image appears to be a professionally produced product shot and doesn't show obvious signs of manipulation."
+  },
+  "product_match": {
+    "score": 1,
+    "explanation": "The image aligns well with the product name. It features an HP laptop with an Intel Core i5 processor (indicated by the Intel Core i5 sticker), a 13th Gen Intel processor (indicated by the 13th Gen sticker). The screen appears to be a 15.6\" FHD display. The Microsoft Office and Iris Xe graphics are also visible from product stickers."
+  },
+  "counterfeit_signs": {
+    "score": 0,
+    "explanation": "There are no immediate indicators suggesting the image depicts a counterfeit product. The branding and design elements appear consistent with genuine HP laptops."
+  },
+  "description_match": {
+    "score": 1,
+    "explanation": "The image strongly matches the description. It shows an Intel Core i5 processor, Intel Iris Xe graphics, a FHD screen, and HP features. While the memory and storage details cannot be directly verified from the image, it supports the product description. Microsoft Office Home 2024, Windows 11, and 1 year Microsoft 365 basic are also displayed in the image. "
+  }
+}
+```
+2025-06-22 23:25:24,279 ERROR Error analyzing product: Expecting value: line 1 column 1 (char 0)
+2025-06-22 23:25:31,671 INFO Analyzing product - Name: HP 15, 13th Gen Intel Core i5-1334U Laptop (16GB DDR4,1TB SSD) Anti-Glare, Micro-Edge,15.6''/39.6cm, FHD, Win11, M365 Basic(1yr),Office Home24, Silver,1.59kg, Iris Xe, FHD Camera w/Shutter, FD0552TU
+2025-06-22 23:25:31,671 INFO Description: Processor, Memory & Storage: Intel Core i5-1334U (up to 4.6 GHz with Intel Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)| Memory: 16 GB DDR4-3200 MT/s (2 x 8 GB) | Storage: 1 TB PCIe Gen4 NVMe M.2 SSD
+Operating System & Preinstalled Software: Windows 11 Home Single Language | MS Office Home 2024 |1 year Microsoft 365 Basic Free|
+Display & Graphics: 39.6 cm (15.6") diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% NTSC| Graphics:Intel Iris XeGraphics
+Ports & Connectivity : 1 USB Type-C 5Gbps signaling rate (supports data transfer only and does not support charging or external monitors); 2 USB Type-A 5Gbps signaling rate; 1 AC smart pin; 1 HDMI 1.4b; 1 headphone/microphone combo| Connectivity: Realtek Wi-Fi 6 (1x1) and Bluetooth 5.3 wireless card
+Other Features: Camera: HP True Vision 1080p FHD camera with temporal noise reduction and Integrated dual array digital microphones| Keyboard:Full-size, backlit, soft grey keyboard with numeric keypad| Audio: Dual speakers|Battery type: 3-cell, 41 Wh Li-ion polymer; Supports battery fast charge: approximately 50% in 45 minutes
+2025-06-22 23:25:31,938 INFO AFC is enabled with max remote calls: 10.
+2025-06-22 23:25:35,942 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-22 23:25:35,943 INFO AFC remote call 1 is done.
+2025-06-22 23:25:35,943 INFO Gemini Analysis: ```json
+{
+  "Authenticity": {
+    "score": 1,
+    "explanation": "The image appears to be an authentic product shot, likely from the manufacturer or a retailer. There are no immediately obvious signs of manipulation."
+  },
+  "ProductMatch": {
+    "score": 1,
+    "explanation": "The image matches the product name and description. It shows an HP laptop with the 'hp' logo, 'Intel Core i5' processor, a '13th Gen' badge, and mentions features such as 'Iris Xe Graphics', 'Latest MS Office 2024', and '1-year free Microsoft 365'. The general design and color (silver) align with the product description."
+  },
+  "CounterfeitSigns": {
+    "score": 0,
+    "explanation": "There are no readily apparent signs suggesting the image depicts a counterfeit product. The branding and logos appear consistent with genuine HP and Intel products."
+  },
+  "DescriptionMatch": {
+    "score": 1,
+    "explanation": "The image supports the provided description. The laptop clearly features an Intel Core i5 processor (as stated), Iris Xe Graphics, and mentions Microsoft Office. The presence of a webcam with a privacy shutter and fast charging are also visually represented. The physical appearance of the laptop with a thin-bezel display (micro-edge) is also consistent."
+  }
+}
+```
+2025-06-22 23:25:35,943 ERROR Error analyzing product: Expecting value: line 1 column 1 (char 0)
+2025-06-22 23:32:07,253 INFO Analyzing product - Name: HP 15, 13th Gen Intel Core i5-1334U Laptop (16GB DDR4,1TB SSD) Anti-Glare, Micro-Edge,15.6''/39.6cm, FHD, Win11, M365 Basic(1yr),Office Home24, Silver,1.59kg, Iris Xe, FHD Camera w/Shutter, FD0552TU
+2025-06-22 23:32:07,253 INFO Description: Processor, Memory & Storage: Intel Core i5-1334U (up to 4.6 GHz with Intel Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)| Memory: 16 GB DDR4-3200 MT/s (2 x 8 GB) | Storage: 1 TB PCIe Gen4 NVMe M.2 SSD
+Operating System & Preinstalled Software: Windows 11 Home Single Language | MS Office Home 2024 |1 year Microsoft 365 Basic Free|
+Display & Graphics: 39.6 cm (15.6") diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% NTSC| Graphics:Intel Iris XeGraphics
+Ports & Connectivity : 1 USB Type-C 5Gbps signaling rate (supports data transfer only and does not support charging or external monitors); 2 USB Type-A 5Gbps signaling rate; 1 AC smart pin; 1 HDMI 1.4b; 1 headphone/microphone combo| Connectivity: Realtek Wi-Fi 6 (1x1) and Bluetooth 5.3 wireless card
+Other Features: Camera: HP True Vision 1080p FHD camera with temporal noise reduction and Integrated dual array digital microphones| Keyboard:Full-size, backlit, soft grey keyboard with numeric keypad| Audio: Dual speakers|Battery type: 3-cell, 41 Wh Li-ion polymer; Supports battery fast charge: approximately 50% in 45 minutes
+2025-06-22 23:32:07,253 INFO Using temperature=0.7
+2025-06-22 23:32:07,513 ERROR Error analyzing product: Models.generate_content() got an unexpected keyword argument 'temperature'
+Traceback (most recent call last):
+  File "D:\Amazon HackOn S5\Amazon HackOn Models\Image Analysis\Model using LLM\analyze.py", line 52, in analyze_product
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Models.generate_content() got an unexpected keyword argument 'temperature'
+2025-06-22 23:36:28,258 INFO Analyzing product - Name: HP 15, 13th Gen Intel Core i5-1334U Laptop (16GB DDR4,1TB SSD) Anti-Glare, Micro-Edge,15.6''/39.6cm, FHD, Win11, M365 Basic(1yr),Office Home24, Silver,1.59kg, Iris Xe, FHD Camera w/Shutter, FD0552TU
+2025-06-22 23:36:28,258 INFO Description: Processor, Memory & Storage: Intel Core i5-1334U (up to 4.6 GHz with Intel Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)| Memory: 16 GB DDR4-3200 MT/s (2 x 8 GB) | Storage: 1 TB PCIe Gen4 NVMe M.2 SSD
+Operating System & Preinstalled Software: Windows 11 Home Single Language | MS Office Home 2024 |1 year Microsoft 365 Basic Free|
+Display & Graphics: 39.6 cm (15.6") diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% NTSC| Graphics:Intel Iris XeGraphics
+Ports & Connectivity : 1 USB Type-C 5Gbps signaling rate (supports data transfer only and does not support charging or external monitors); 2 USB Type-A 5Gbps signaling rate; 1 AC smart pin; 1 HDMI 1.4b; 1 headphone/microphone combo| Connectivity: Realtek Wi-Fi 6 (1x1) and Bluetooth 5.3 wireless card
+Other Features: Camera: HP True Vision 1080p FHD camera with temporal noise reduction and Integrated dual array digital microphones| Keyboard:Full-size, backlit, soft grey keyboard with numeric keypad| Audio: Dual speakers|Battery type: 3-cell, 41 Wh Li-ion polymer; Supports battery fast charge: approximately 50% in 45 minutes
+2025-06-22 23:36:28,259 INFO Using temperature=0.7
+2025-06-22 23:36:28,522 INFO AFC is enabled with max remote calls: 10.
+2025-06-22 23:36:28,532 ERROR Error analyzing product: seek of closed file
+Traceback (most recent call last):
+  File "D:\Amazon HackOn S5\Amazon HackOn Models\Image Analysis\Model using LLM\analyze.py", line 52, in analyze_product
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\models.py", line 6058, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\models.py", line 4983, in _generate_content
+    request_dict = _GenerateContentParameters_to_mldev(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\models.py", line 931, in _GenerateContentParameters_to_mldev
+    for item in t.t_contents(
+                ^^^^^^^^^^^^^
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\_transformers.py", line 562, in t_contents
+    _handle_current_part(result, accumulated_parts, content)
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\_transformers.py", line 536, in _handle_current_part
+    current_part = t_part(current_part)
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\_transformers.py", line 369, in t_part
+    return types.Part(inline_data=pil_to_blob(part))
+                                  ^^^^^^^^^^^^^^^^^
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\_transformers.py", line 261, in pil_to_blob
+    img.save(bytesio, format='PNG')
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\PIL\Image.py", line 2556, in save
+    self._ensure_mutable()
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\PIL\Image.py", line 654, in _ensure_mutable
+    self._copy()
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\PIL\Image.py", line 648, in _copy
+    self.load()
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\PIL\ImageFile.py", line 267, in load
+    seek(offset)
+ValueError: seek of closed file
+2025-06-22 23:37:05,689 INFO Analyzing product - Name: HP 15, 13th Gen Intel Core i5-1334U Laptop (16GB DDR4,1TB SSD) Anti-Glare, Micro-Edge,15.6''/39.6cm, FHD, Win11, M365 Basic(1yr),Office Home24, Silver,1.59kg, Iris Xe, FHD Camera w/Shutter, FD0552TU
+2025-06-22 23:37:05,689 INFO Description: Processor, Memory & Storage: Intel Core i5-1334U (up to 4.6 GHz with Intel Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)| Memory: 16 GB DDR4-3200 MT/s (2 x 8 GB) | Storage: 1 TB PCIe Gen4 NVMe M.2 SSD
+Operating System & Preinstalled Software: Windows 11 Home Single Language | MS Office Home 2024 |1 year Microsoft 365 Basic Free|
+Display & Graphics: 39.6 cm (15.6") diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% NTSC| Graphics:Intel Iris XeGraphics
+Ports & Connectivity : 1 USB Type-C 5Gbps signaling rate (supports data transfer only and does not support charging or external monitors); 2 USB Type-A 5Gbps signaling rate; 1 AC smart pin; 1 HDMI 1.4b; 1 headphone/microphone combo| Connectivity: Realtek Wi-Fi 6 (1x1) and Bluetooth 5.3 wireless card
+Other Features: Camera: HP True Vision 1080p FHD camera with temporal noise reduction and Integrated dual array digital microphones| Keyboard:Full-size, backlit, soft grey keyboard with numeric keypad| Audio: Dual speakers|Battery type: 3-cell, 41 Wh Li-ion polymer; Supports battery fast charge: approximately 50% in 45 minutes
+2025-06-22 23:37:05,689 INFO Using temperature=0.7
+2025-06-22 23:37:05,968 INFO AFC is enabled with max remote calls: 10.
+2025-06-22 23:37:05,968 ERROR Error analyzing product: seek of closed file
+Traceback (most recent call last):
+  File "D:\Amazon HackOn S5\Amazon HackOn Models\Image Analysis\Model using LLM\analyze.py", line 52, in analyze_product
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\models.py", line 6058, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\models.py", line 4983, in _generate_content
+    request_dict = _GenerateContentParameters_to_mldev(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\models.py", line 931, in _GenerateContentParameters_to_mldev
+    for item in t.t_contents(
+                ^^^^^^^^^^^^^
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\_transformers.py", line 562, in t_contents
+    _handle_current_part(result, accumulated_parts, content)
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\_transformers.py", line 536, in _handle_current_part
+    current_part = t_part(current_part)
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\_transformers.py", line 369, in t_part
+    return types.Part(inline_data=pil_to_blob(part))
+                                  ^^^^^^^^^^^^^^^^^
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\_transformers.py", line 261, in pil_to_blob
+    img.save(bytesio, format='PNG')
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\PIL\Image.py", line 2556, in save
+    self._ensure_mutable()
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\PIL\Image.py", line 654, in _ensure_mutable
+    self._copy()
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\PIL\Image.py", line 648, in _copy
+    self.load()
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\PIL\ImageFile.py", line 267, in load
+    seek(offset)
+ValueError: seek of closed file
+2025-06-22 23:37:06,935 INFO Analyzing product - Name: HP 15, 13th Gen Intel Core i5-1334U Laptop (16GB DDR4,1TB SSD) Anti-Glare, Micro-Edge,15.6''/39.6cm, FHD, Win11, M365 Basic(1yr),Office Home24, Silver,1.59kg, Iris Xe, FHD Camera w/Shutter, FD0552TU
+2025-06-22 23:37:06,936 INFO Description: Processor, Memory & Storage: Intel Core i5-1334U (up to 4.6 GHz with Intel Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)| Memory: 16 GB DDR4-3200 MT/s (2 x 8 GB) | Storage: 1 TB PCIe Gen4 NVMe M.2 SSD
+Operating System & Preinstalled Software: Windows 11 Home Single Language | MS Office Home 2024 |1 year Microsoft 365 Basic Free|
+Display & Graphics: 39.6 cm (15.6") diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% NTSC| Graphics:Intel Iris XeGraphics
+Ports & Connectivity : 1 USB Type-C 5Gbps signaling rate (supports data transfer only and does not support charging or external monitors); 2 USB Type-A 5Gbps signaling rate; 1 AC smart pin; 1 HDMI 1.4b; 1 headphone/microphone combo| Connectivity: Realtek Wi-Fi 6 (1x1) and Bluetooth 5.3 wireless card
+Other Features: Camera: HP True Vision 1080p FHD camera with temporal noise reduction and Integrated dual array digital microphones| Keyboard:Full-size, backlit, soft grey keyboard with numeric keypad| Audio: Dual speakers|Battery type: 3-cell, 41 Wh Li-ion polymer; Supports battery fast charge: approximately 50% in 45 minutes
+2025-06-22 23:37:06,936 INFO Using temperature=0.7
+2025-06-22 23:37:07,277 INFO AFC is enabled with max remote calls: 10.
+2025-06-22 23:37:07,277 ERROR Error analyzing product: seek of closed file
+Traceback (most recent call last):
+  File "D:\Amazon HackOn S5\Amazon HackOn Models\Image Analysis\Model using LLM\analyze.py", line 52, in analyze_product
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\models.py", line 6058, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\models.py", line 4983, in _generate_content
+    request_dict = _GenerateContentParameters_to_mldev(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\models.py", line 931, in _GenerateContentParameters_to_mldev
+    for item in t.t_contents(
+                ^^^^^^^^^^^^^
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\_transformers.py", line 562, in t_contents
+    _handle_current_part(result, accumulated_parts, content)
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\_transformers.py", line 536, in _handle_current_part
+    current_part = t_part(current_part)
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\_transformers.py", line 369, in t_part
+    return types.Part(inline_data=pil_to_blob(part))
+                                  ^^^^^^^^^^^^^^^^^
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\google\genai\_transformers.py", line 261, in pil_to_blob
+    img.save(bytesio, format='PNG')
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\PIL\Image.py", line 2556, in save
+    self._ensure_mutable()
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\PIL\Image.py", line 654, in _ensure_mutable
+    self._copy()
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\PIL\Image.py", line 648, in _copy
+    self.load()
+  File "D:\Users\hp\anaconda3\envs\venv\Lib\site-packages\PIL\ImageFile.py", line 267, in load
+    seek(offset)
+ValueError: seek of closed file
